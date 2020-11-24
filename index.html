@@ -3,17 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <title>Advent Of Code 2020! 🦀 + 🕸 = ❤</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <script type="text/javascript" src="./index.js"></script>
     <script src="./bootstrap.js"></script>
     <noscript
       >This page contains webassembly and javascript content, please enable
       javascript in your browser.</noscript
     >
     <div class="container">
-      <form>
+      <form id="formInput">
         <div class="row justify-content-md-center align-items-center">
           <div class="col col-md-8">
             <div class="form-group">
@@ -54,7 +69,13 @@
             </div>
           </div>
           <div class="col-md-2">
-            <button type="submit" class="btn btn-primary">Solve</button>
+            <button
+              type="submit"
+              id="dataSubmit"
+              class="btn btn-primary"
+            >
+              Solve
+            </button>
           </div>
         </div>
       </form>
