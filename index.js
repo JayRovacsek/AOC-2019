@@ -1,5 +1,5 @@
+import * as wasm from "aoc_2020";
 dataSubmit.addEventListener("click", () => {
-  const wasm = require("aoc_2020");
   const vals = [...document.getElementById("formInput").elements]
     .filter((x) => x.value !== "")
     .map((x) => x.value);
