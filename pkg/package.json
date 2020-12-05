@@ -1,0 +1,21 @@
+{
+  "name": "aoc_2020",
+  "collaborators": [
+    "elevennn"
+  ],
+  "description": "A crate/lib to host code for the AoC 2020",
+  "version": "0.1.4",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JayRovacsek/AOC.git"
+  },
+  "files": [
+    "aoc_2020_bg.wasm",
+    "aoc_2020.js",
+    "aoc_2020.d.ts"
+  ],
+  "module": "aoc_2020.js",
+  "types": "aoc_2020.d.ts",
+  "sideEffects": false
+}
