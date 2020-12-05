@@ -1,4 +1,4 @@
-import * as wasm from "./pkg/aoc_2020";
+import * as wasm from "./pkg/aoc_2020.js";
 dataSubmit.addEventListener("click", () => {
   const vals = [...document.getElementById("formInput").elements]
     .filter((x) => x.value !== "")
